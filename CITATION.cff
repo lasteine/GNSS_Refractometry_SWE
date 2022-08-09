@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Steiner
+    given-names: Ladina
+    orcid: https://orcid.org/0000-0002-4958-0849
+title: "GNSS_Refractometry_SWE: Snow water equivalent estimation based on GNSS refractometry using the biased up-component and post processing in RTKLIB."
+version: 1.0
+date-released: 2022-08-31
