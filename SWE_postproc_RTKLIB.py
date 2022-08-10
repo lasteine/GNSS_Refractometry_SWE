@@ -120,8 +120,7 @@ m = fil_clean.resample('D').median()
 s = fil_clean.resample('D').std()
 
 # filter data with a rolling median and resample resolution to fit reference data (30min)
-m_30 = fil_clean.rolling('D').median()
-m_30min = m_30.resample('30min').mean()
+m_30min = fil_clean.rolling('D').median().resample('30min').mean()
 
 
 ''' 3. Read reference sensors .csv data '''
